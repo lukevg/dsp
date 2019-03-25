@@ -1,6 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
-##### Actual distribution:
+#### Actual distribution:
 
 resp = nsfg.ReadFemResp()
 
@@ -13,7 +13,7 @@ thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 pmf.Mean() = 1.0242051550438309
 
-###### Biased distribution:
+#### Biased distribution:
 
 biased = BiasPmf(pmf, label='biased')
 
